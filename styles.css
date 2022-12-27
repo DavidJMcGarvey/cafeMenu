@@ -14,9 +14,20 @@ h2 {
     font-size: 30px;
 }
 
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+
 body {
     background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
     font-family: sans-serif;
+    padding: 20px;
+}
+
+.bottom-line {
+    margin-top: 25px;
 }
 
 .established {
@@ -33,6 +44,8 @@ body {
 
 .item p {
     display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
   
 .flavor, .dessert {
@@ -43,4 +56,10 @@ body {
 .price {
     text-align: right;
     width: 25%;
+}
+
+/* FOOTER */
+
+footer {
+    font-size: 14px;
 }
